@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
-  color: #434455;
+  color: var(--color-text);
   background-color: var(--back-color);
 }
 
@@ -132,7 +132,7 @@ body {
 /*! --------------SECTION3---------------- */
 
 .team {
-  background-color: #f4f4fd;
+  background-color: var(--color-footer);
 }
 
 .team-title {
@@ -144,7 +144,7 @@ body {
   color: var(--color-nav);
 }
 .team-item {
-  background-color: #ffffff;
+  background-color: var(--back-color);
 }
 .team-subtitle {
   font-weight: 500;
