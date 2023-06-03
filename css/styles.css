@@ -190,7 +190,7 @@ img {
 }
 
 .table-item {
-  width: calc(100% - 72px) / 4;
+  width: calc((100% - 72px) / 4);
 }
 
 .table-list {
@@ -247,7 +247,7 @@ img {
   text-transform: capitalize;
   color: var(--color-nav);
   display: block;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 /*! --------------SECTION3---------------- */
@@ -360,7 +360,7 @@ img {
 
 .folio-menu {
   display: flex;
-  padding: 24px 0;
+  gap: 40px;
 }
 
 .folio-menu-item {
@@ -390,10 +390,7 @@ img {
 
 .folio-add-list {
   display: flex;
-}
-
-.folio-add-item {
-  margin-right: 40px;
+  gap: 40px;
 }
 
 .folio-add-link {
