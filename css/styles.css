@@ -39,13 +39,13 @@ h6 {
 .container {
   width: 100%;
   max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
 ul {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
   padding-left: 0;
 }
 
@@ -104,10 +104,7 @@ img {
 
 .header-menu {
   display: flex;
-}
-
-.header-menu-list {
-  margin-right: 40px;
+  gap: 40px;
 }
 
 .header-menu-link {
@@ -130,10 +127,7 @@ img {
 
 .header-add-list {
   display: flex;
-}
-
-.header-add-item {
-  margin-right: 40px;
+  gap: 40px;
 }
 
 .header-add-link {
@@ -210,7 +204,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-nav);
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .table-text {
@@ -334,13 +328,14 @@ img {
 /*! --------------PORTFOLIO HEADER---------------- */
 
 .folio {
-  border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid var(--color-standard-border);
 }
 
 .folio-container {
   padding: 0 15px;
   width: 1158px;
   margin: 0 auto;
+  display: flex;
 }
 
 .folio-nav {
@@ -365,7 +360,7 @@ img {
 
 .folio-menu {
   display: flex;
-  gap: 40px;
+  padding: 24px 0;
 }
 
 .folio-menu-item {
@@ -387,8 +382,10 @@ img {
 }
 
 .folio-add {
+  display: flex;
   font-style: normal;
   margin-left: auto;
+  gap: 40px;
 }
 
 .folio-add-list {
