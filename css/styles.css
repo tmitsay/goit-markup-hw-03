@@ -416,9 +416,6 @@ img {
   display: flex;
   justify-content: center;
   margin-bottom: 72px;
-}
-
-.menu-item {
   gap: 24px;
 }
 
